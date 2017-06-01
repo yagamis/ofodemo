@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVOSCloud
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +16,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        AMapServices.shared().apiKey = "32e213df60054d1469a15cc6b2f74709"
+        AMapServices.shared().enableHTTPS = true
+        
+      
+        
+        AVOSCloud.setApplicationId("rNwy1ml3cXsge2Y9FLh6oyBx-gzGzoHsz", clientKey: "sqn4J8OgqYoKgNHfpU5bOibI")
+        
         return true
     }
 

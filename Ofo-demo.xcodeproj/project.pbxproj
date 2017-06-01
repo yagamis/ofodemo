@@ -7,14 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D3079C112A444AE8A745F326 /* Pods_Ofo_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62E3FB3D8B723EF2F896DE76 /* Pods_Ofo_demo.framework */; };
+		E43C673E1ED57DFA0071FC2F /* ErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43C673D1ED57DFA0071FC2F /* ErrorViewController.swift */; };
+		E47B48901ED2DEE300F1469A /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47B488F1ED2DEE300F1469A /* NetworkHelper.swift */; };
+		E47E46451ECB4137004E0EB9 /* UIViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47E46441ECB4137004E0EB9 /* UIViewHelper.swift */; };
+		E47E46471ECB48A3004E0EB9 /* ShowPasscodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47E46461ECB48A3004E0EB9 /* ShowPasscodeController.swift */; };
+		E47E46581ECB4EA8004E0EB9 /* 0_D.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E47E46491ECB4EA8004E0EB9 /* 0_D.m4a */; };
+		E47E46591ECB4EA8004E0EB9 /* 1_D.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E47E464A1ECB4EA8004E0EB9 /* 1_D.m4a */; };
+		E47E465A1ECB4EA8004E0EB9 /* 2_D.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E47E464B1ECB4EA8004E0EB9 /* 2_D.m4a */; };
+		E47E465B1ECB4EA8004E0EB9 /* 3_D.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E47E464C1ECB4EA8004E0EB9 /* 3_D.m4a */; };
+		E47E465C1ECB4EA8004E0EB9 /* 4_D.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E47E464D1ECB4EA8004E0EB9 /* 4_D.m4a */; };
+		E47E465D1ECB4EA8004E0EB9 /* 5_D.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E47E464E1ECB4EA8004E0EB9 /* 5_D.m4a */; };
+		E47E465E1ECB4EA8004E0EB9 /* 6_D.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E47E464F1ECB4EA8004E0EB9 /* 6_D.m4a */; };
+		E47E465F1ECB4EA8004E0EB9 /* 7_D.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E47E46501ECB4EA8004E0EB9 /* 7_D.m4a */; };
+		E47E46601ECB4EA8004E0EB9 /* 8_D.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E47E46511ECB4EA8004E0EB9 /* 8_D.m4a */; };
+		E47E46611ECB4EA8004E0EB9 /* 9_D.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E47E46521ECB4EA8004E0EB9 /* 9_D.m4a */; };
+		E47E46621ECB4EA8004E0EB9 /* 上车前_D.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E47E46531ECB4EA8004E0EB9 /* 上车前_D.m4a */; };
+		E47E46631ECB4EA8004E0EB9 /* 上车前_LH.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E47E46541ECB4EA8004E0EB9 /* 上车前_LH.m4a */; };
+		E47E46641ECB4EA8004E0EB9 /* 您的解锁码为_D.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E47E46551ECB4EA8004E0EB9 /* 您的解锁码为_D.m4a */; };
+		E47E46651ECB4EA8004E0EB9 /* 骑行结束_D.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E47E46561ECB4EA8004E0EB9 /* 骑行结束_D.m4a */; };
+		E47E46661ECB4EA8004E0EB9 /* 骑行结束_LH.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E47E46571ECB4EA8004E0EB9 /* 骑行结束_LH.m4a */; };
 		E4965DA71EB383B10000427C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4965DA61EB383B10000427C /* AppDelegate.swift */; };
 		E4965DA91EB383B10000427C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4965DA81EB383B10000427C /* ViewController.swift */; };
 		E4965DAC1EB383B10000427C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4965DAA1EB383B10000427C /* Main.storyboard */; };
 		E4965DAE1EB383B10000427C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4965DAD1EB383B10000427C /* Assets.xcassets */; };
 		E4965DB11EB383B10000427C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4965DAF1EB383B10000427C /* LaunchScreen.storyboard */; };
+		E4965DBC1EB38C3E0000427C /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4965DBB1EB38C3E0000427C /* WebViewController.swift */; };
+		E4BDFC511EC5694700591583 /* ScanController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BDFC501EC5694700591583 /* ScanController.swift */; };
+		E4BDFC531EC56EB100591583 /* CodeScan.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E4BDFC521EC56EB100591583 /* CodeScan.bundle */; };
+		E4BDFC571EC8327D00591583 /* InputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BDFC561EC8327D00591583 /* InputController.swift */; };
+		E4BDFC591EC8339D00591583 /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BDFC581EC8339D00591583 /* ColorHelper.swift */; };
+		E4BED8551EBA0E7200ACC6C2 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BED8541EBA0E7200ACC6C2 /* MenuController.swift */; };
+		E4BED85A1EBA150C00ACC6C2 /* AboutUsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BED8591EBA150C00ACC6C2 /* AboutUsController.swift */; };
+		E4FF2E9C1EBDC48000060D2C /* MyPinAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FF2E9B1EBDC48000060D2C /* MyPinAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		62E3FB3D8B723EF2F896DE76 /* Pods_Ofo_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ofo_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9CA27A132026D7694D8EB57 /* Pods-Ofo-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ofo-demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ofo-demo/Pods-Ofo-demo.debug.xcconfig"; sourceTree = "<group>"; };
+		B0140FC4AC4208E9A584EECA /* Pods-Ofo-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ofo-demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ofo-demo/Pods-Ofo-demo.release.xcconfig"; sourceTree = "<group>"; };
+		E43C673D1ED57DFA0071FC2F /* ErrorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorViewController.swift; sourceTree = "<group>"; };
+		E47B488F1ED2DEE300F1469A /* NetworkHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		E47E46441ECB4137004E0EB9 /* UIViewHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewHelper.swift; sourceTree = "<group>"; };
+		E47E46461ECB48A3004E0EB9 /* ShowPasscodeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowPasscodeController.swift; sourceTree = "<group>"; };
+		E47E46491ECB4EA8004E0EB9 /* 0_D.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 0_D.m4a; sourceTree = "<group>"; };
+		E47E464A1ECB4EA8004E0EB9 /* 1_D.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1_D.m4a; sourceTree = "<group>"; };
+		E47E464B1ECB4EA8004E0EB9 /* 2_D.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2_D.m4a; sourceTree = "<group>"; };
+		E47E464C1ECB4EA8004E0EB9 /* 3_D.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3_D.m4a; sourceTree = "<group>"; };
+		E47E464D1ECB4EA8004E0EB9 /* 4_D.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 4_D.m4a; sourceTree = "<group>"; };
+		E47E464E1ECB4EA8004E0EB9 /* 5_D.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 5_D.m4a; sourceTree = "<group>"; };
+		E47E464F1ECB4EA8004E0EB9 /* 6_D.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 6_D.m4a; sourceTree = "<group>"; };
+		E47E46501ECB4EA8004E0EB9 /* 7_D.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 7_D.m4a; sourceTree = "<group>"; };
+		E47E46511ECB4EA8004E0EB9 /* 8_D.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 8_D.m4a; sourceTree = "<group>"; };
+		E47E46521ECB4EA8004E0EB9 /* 9_D.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 9_D.m4a; sourceTree = "<group>"; };
+		E47E46531ECB4EA8004E0EB9 /* 上车前_D.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "上车前_D.m4a"; sourceTree = "<group>"; };
+		E47E46541ECB4EA8004E0EB9 /* 上车前_LH.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "上车前_LH.m4a"; sourceTree = "<group>"; };
+		E47E46551ECB4EA8004E0EB9 /* 您的解锁码为_D.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "您的解锁码为_D.m4a"; sourceTree = "<group>"; };
+		E47E46561ECB4EA8004E0EB9 /* 骑行结束_D.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "骑行结束_D.m4a"; sourceTree = "<group>"; };
+		E47E46571ECB4EA8004E0EB9 /* 骑行结束_LH.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "骑行结束_LH.m4a"; sourceTree = "<group>"; };
 		E4965DA31EB383B10000427C /* Ofo-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ofo-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4965DA61EB383B10000427C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4965DA81EB383B10000427C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +72,15 @@
 		E4965DAD1EB383B10000427C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4965DB01EB383B10000427C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4965DB21EB383B10000427C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4965DBB1EB38C3E0000427C /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		E4BDFC501EC5694700591583 /* ScanController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanController.swift; sourceTree = "<group>"; };
+		E4BDFC521EC56EB100591583 /* CodeScan.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CodeScan.bundle; sourceTree = "<group>"; };
+		E4BDFC561EC8327D00591583 /* InputController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputController.swift; sourceTree = "<group>"; };
+		E4BDFC581EC8339D00591583 /* ColorHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorHelper.swift; sourceTree = "<group>"; };
+		E4BED8541EBA0E7200ACC6C2 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		E4BED8561EBA118C00ACC6C2 /* Ofo-demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ofo-demo-Bridging-Header.h"; sourceTree = "<group>"; };
+		E4BED8591EBA150C00ACC6C2 /* AboutUsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsController.swift; sourceTree = "<group>"; };
+		E4FF2E9B1EBDC48000060D2C /* MyPinAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPinAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +88,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3079C112A444AE8A745F326 /* Pods_Ofo_demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6EB502ABD825543FCEFC1193 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9CA27A132026D7694D8EB57 /* Pods-Ofo-demo.debug.xcconfig */,
+				B0140FC4AC4208E9A584EECA /* Pods-Ofo-demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E47E46481ECB4EA8004E0EB9 /* voice */ = {
+			isa = PBXGroup;
+			children = (
+				E47E46491ECB4EA8004E0EB9 /* 0_D.m4a */,
+				E47E464A1ECB4EA8004E0EB9 /* 1_D.m4a */,
+				E47E464B1ECB4EA8004E0EB9 /* 2_D.m4a */,
+				E47E464C1ECB4EA8004E0EB9 /* 3_D.m4a */,
+				E47E464D1ECB4EA8004E0EB9 /* 4_D.m4a */,
+				E47E464E1ECB4EA8004E0EB9 /* 5_D.m4a */,
+				E47E464F1ECB4EA8004E0EB9 /* 6_D.m4a */,
+				E47E46501ECB4EA8004E0EB9 /* 7_D.m4a */,
+				E47E46511ECB4EA8004E0EB9 /* 8_D.m4a */,
+				E47E46521ECB4EA8004E0EB9 /* 9_D.m4a */,
+				E47E46531ECB4EA8004E0EB9 /* 上车前_D.m4a */,
+				E47E46541ECB4EA8004E0EB9 /* 上车前_LH.m4a */,
+				E47E46551ECB4EA8004E0EB9 /* 您的解锁码为_D.m4a */,
+				E47E46561ECB4EA8004E0EB9 /* 骑行结束_D.m4a */,
+				E47E46571ECB4EA8004E0EB9 /* 骑行结束_LH.m4a */,
+			);
+			path = voice;
+			sourceTree = "<group>";
+		};
 		E4965D9A1EB383B10000427C = {
 			isa = PBXGroup;
 			children = (
 				E4965DA51EB383B10000427C /* Ofo-demo */,
 				E4965DA41EB383B10000427C /* Products */,
+				E4965DB81EB38B8D0000427C /* Frameworks */,
+				6EB502ABD825543FCEFC1193 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +149,34 @@
 			children = (
 				E4965DA61EB383B10000427C /* AppDelegate.swift */,
 				E4965DA81EB383B10000427C /* ViewController.swift */,
+				E4FF2E9B1EBDC48000060D2C /* MyPinAnnotation.swift */,
+				E4965DBB1EB38C3E0000427C /* WebViewController.swift */,
+				E47E46481ECB4EA8004E0EB9 /* voice */,
 				E4965DAA1EB383B10000427C /* Main.storyboard */,
+				E4BDFC581EC8339D00591583 /* ColorHelper.swift */,
+				E4BDFC561EC8327D00591583 /* InputController.swift */,
+				E4BDFC521EC56EB100591583 /* CodeScan.bundle */,
+				E4BDFC501EC5694700591583 /* ScanController.swift */,
+				E47E46441ECB4137004E0EB9 /* UIViewHelper.swift */,
+				E43C673D1ED57DFA0071FC2F /* ErrorViewController.swift */,
+				E4BED8591EBA150C00ACC6C2 /* AboutUsController.swift */,
+				E47B488F1ED2DEE300F1469A /* NetworkHelper.swift */,
+				E47E46461ECB48A3004E0EB9 /* ShowPasscodeController.swift */,
+				E4BED8541EBA0E7200ACC6C2 /* MenuController.swift */,
 				E4965DAD1EB383B10000427C /* Assets.xcassets */,
 				E4965DAF1EB383B10000427C /* LaunchScreen.storyboard */,
 				E4965DB21EB383B10000427C /* Info.plist */,
+				E4BED8561EBA118C00ACC6C2 /* Ofo-demo-Bridging-Header.h */,
 			);
 			path = "Ofo-demo";
+			sourceTree = "<group>";
+		};
+		E4965DB81EB38B8D0000427C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62E3FB3D8B723EF2F896DE76 /* Pods_Ofo_demo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4965DB51EB383B10000427C /* Build configuration list for PBXNativeTarget "Ofo-demo" */;
 			buildPhases = (
+				FD60A21190D7AEDE3C791B71 /* [CP] Check Pods Manifest.lock */,
 				E4965D9F1EB383B10000427C /* Sources */,
 				E4965DA01EB383B10000427C /* Frameworks */,
 				E4965DA11EB383B10000427C /* Resources */,
+				29AB30F7F305ED7B0B69F87F /* [CP] Embed Pods Frameworks */,
+				7EE9B1EA60855AEE8EFBF633 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,7 +214,14 @@
 				TargetAttributes = {
 					E4965DA21EB383B10000427C = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 446F8R7468;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -123,20 +248,95 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E47E465E1ECB4EA8004E0EB9 /* 6_D.m4a in Resources */,
+				E47E465A1ECB4EA8004E0EB9 /* 2_D.m4a in Resources */,
+				E47E46601ECB4EA8004E0EB9 /* 8_D.m4a in Resources */,
+				E47E46661ECB4EA8004E0EB9 /* 骑行结束_LH.m4a in Resources */,
+				E47E46581ECB4EA8004E0EB9 /* 0_D.m4a in Resources */,
 				E4965DB11EB383B10000427C /* LaunchScreen.storyboard in Resources */,
+				E47E465C1ECB4EA8004E0EB9 /* 4_D.m4a in Resources */,
 				E4965DAE1EB383B10000427C /* Assets.xcassets in Resources */,
+				E47E46611ECB4EA8004E0EB9 /* 9_D.m4a in Resources */,
+				E47E46641ECB4EA8004E0EB9 /* 您的解锁码为_D.m4a in Resources */,
+				E47E465D1ECB4EA8004E0EB9 /* 5_D.m4a in Resources */,
+				E47E46651ECB4EA8004E0EB9 /* 骑行结束_D.m4a in Resources */,
+				E47E46591ECB4EA8004E0EB9 /* 1_D.m4a in Resources */,
+				E47E46631ECB4EA8004E0EB9 /* 上车前_LH.m4a in Resources */,
+				E47E465B1ECB4EA8004E0EB9 /* 3_D.m4a in Resources */,
+				E47E46621ECB4EA8004E0EB9 /* 上车前_D.m4a in Resources */,
+				E47E465F1ECB4EA8004E0EB9 /* 7_D.m4a in Resources */,
 				E4965DAC1EB383B10000427C /* Main.storyboard in Resources */,
+				E4BDFC531EC56EB100591583 /* CodeScan.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29AB30F7F305ED7B0B69F87F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ofo-demo/Pods-Ofo-demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EE9B1EA60855AEE8EFBF633 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ofo-demo/Pods-Ofo-demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD60A21190D7AEDE3C791B71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E4965D9F1EB383B10000427C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E47E46471ECB48A3004E0EB9 /* ShowPasscodeController.swift in Sources */,
+				E47E46451ECB4137004E0EB9 /* UIViewHelper.swift in Sources */,
+				E43C673E1ED57DFA0071FC2F /* ErrorViewController.swift in Sources */,
+				E4FF2E9C1EBDC48000060D2C /* MyPinAnnotation.swift in Sources */,
+				E4BDFC511EC5694700591583 /* ScanController.swift in Sources */,
+				E47B48901ED2DEE300F1469A /* NetworkHelper.swift in Sources */,
+				E4BED8551EBA0E7200ACC6C2 /* MenuController.swift in Sources */,
 				E4965DA91EB383B10000427C /* ViewController.swift in Sources */,
+				E4BDFC591EC8339D00591583 /* ColorHelper.swift in Sources */,
+				E4BDFC571EC8327D00591583 /* InputController.swift in Sources */,
+				E4BED85A1EBA150C00ACC6C2 /* AboutUsController.swift in Sources */,
+				E4965DBC1EB38C3E0000427C /* WebViewController.swift in Sources */,
 				E4965DA71EB383B10000427C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,24 +458,35 @@
 		};
 		E4965DB61EB383B10000427C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9CA27A132026D7694D8EB57 /* Pods-Ofo-demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 446F8R7468;
 				INFOPLIST_FILE = "Ofo-demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaoboswift.Ofo-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Ofo-demo/Ofo-demo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		E4965DB71EB383B10000427C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0140FC4AC4208E9A584EECA /* Pods-Ofo-demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 446F8R7468;
 				INFOPLIST_FILE = "Ofo-demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaoboswift.Ofo-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Ofo-demo/Ofo-demo-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -299,6 +510,7 @@
 				E4965DB71EB383B10000427C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

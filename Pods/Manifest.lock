@@ -1,0 +1,58 @@
+PODS:
+  - AMap3DMap (5.0.0):
+    - AMapFoundation (~> 1.3)
+  - AMapFoundation (1.4.0)
+  - AMapLocation (2.3.1):
+    - AMapFoundation (~> 1.3)
+  - AMapNavi (5.0.0):
+    - AMap3DMap (~> 5.0)
+    - AMapFoundation (~> 1.3)
+  - AMapSearch (5.0.0):
+    - AMapFoundation (~> 1.2)
+  - APNumberPad (1.2.0)
+  - AVOSCloud (4.7.0)
+  - FTIndicator (1.2.0):
+    - FTIndicator/FTNotificationIndicator (= 1.2.0)
+    - FTIndicator/FTProgressIndicator (= 1.2.0)
+    - FTIndicator/FTToastIndicator (= 1.2.0)
+  - FTIndicator/FTNotificationIndicator (1.2.0)
+  - FTIndicator/FTProgressIndicator (1.2.0)
+  - FTIndicator/FTToastIndicator (1.2.0)
+  - MIBlurPopup (0.1.1)
+  - swiftScan (1.0.9)
+  - SwiftySound (0.3.0)
+  - SwiftyTimer (2.0.0)
+  - SWRevealViewController (2.3.0)
+
+DEPENDENCIES:
+  - AMap3DMap
+  - AMapLocation
+  - AMapNavi
+  - AMapSearch
+  - APNumberPad
+  - AVOSCloud
+  - FTIndicator
+  - MIBlurPopup
+  - swiftScan
+  - SwiftySound
+  - SwiftyTimer
+  - SWRevealViewController
+
+SPEC CHECKSUMS:
+  AMap3DMap: 4d0a53d0e57c7c758560225dfdaf593b306bd468
+  AMapFoundation: 458974f46a39df8407fd818ab83d2630d494c726
+  AMapLocation: 6016f0e09c127461c9c8e36945f34c0f037ad962
+  AMapNavi: dec01f6752e8b665467f4c097db1512ff7510ca0
+  AMapSearch: cf7fd100d533995822d92c22586abfaf7cdf6eef
+  APNumberPad: a63526db2db628824ae92e7124719e87e0f1c969
+  AVOSCloud: 17338cfe698a4bda68c60b857519153863c4b3b7
+  FTIndicator: e1c035b99b8df1b1a40702b37cdc12fac5dd057c
+  MIBlurPopup: debbc8f4f631809797140d37b5476745a61e90be
+  swiftScan: fdd1a19174f472838f153b73c3f22bcb29724096
+  SwiftySound: 77f0adcc39815b53c6f66cf998b203b121340300
+  SwiftyTimer: 2efd74b060d69ad4f1496baf5bbedbe132125fcf
+  SWRevealViewController: 6d3fd97f70112fd7cef9de14df4260eacce4c63a
+
+PODFILE CHECKSUM: 234f66a8933e5461215e01eda0aff5c81b21a6d9
+
+COCOAPODS: 1.2.1
